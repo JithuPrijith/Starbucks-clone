@@ -1,0 +1,383 @@
+body{
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-top: 0;
+    
+
+}
+
+.outer-nav{
+    width: 100%;
+    height: 100px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    border-bottom: 1px solid rgb(168, 167, 167);
+    
+    
+}
+.inner-nav1{
+    
+    width: 60px;
+    height: 100px;
+    background-color: white;
+}
+.inner-nav1 img{
+    width: 50px;
+    height: 50px;
+}
+.inner-nav2 li{
+    display: inline-flex;
+    padding-right: 10px;
+    
+    
+}
+.inner-nav3{
+    padding-left: 750px;
+}
+    
+.inner-nav3 li{
+   display: inline-flex;
+   padding: 10px;
+
+}
+
+#join-button{
+    padding-inline: 15px;
+    padding-block: 5px 8px;
+    border-radius: 15px;
+    background-color: black;
+    color: white;
+    font-weight: bolder;
+}
+#join-button:hover{
+background-color: #3f3f3f;
+}
+.inner-nav2 a ,.inner-nav3 a{
+    text-decoration: none;
+    color: #282828;
+    font-family:Arial, Helvetica, sans-serif;
+    color: #282828;
+    font-weight:600;
+    font-size: 14px;
+}
+#nav2 a{
+    font-weight: 500;
+}
+.inner-nav3 li a{
+    font-weight: bold;
+    font-size:16px
+}
+#sign-button{
+    padding-inline: 15px;
+    padding-block: 5px 8px;
+    border-radius: 15px;
+    border: 1px solid black;
+    background-color: white;
+    
+}
+#sign-button:hover{
+    background-color: #f1eded;
+}
+
+
+
+.middle-outer{
+    margin-top: 20px;
+    width: 100%;
+    background-color: white;
+    display: grid;
+    grid-template-columns:1fr 1fr;
+    row-gap: 20px;
+}
+
+.summer-image-div{
+    height: 220px;
+    background-color: blueviolet;
+}
+.summer-image-div img{
+   width: 100%;
+    height:100%;
+}
+.summer-data-div{
+    height: 220px;
+    background-color: #1e3932;
+    text-align: center;
+    
+   
+}
+.summer-data-div a{
+    
+    display: inline-block;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #eee;
+}
+.cofee-image-div{
+    height: 600px;
+    background-color: rgb(18, 18, 39);
+}
+.coffe-image1{
+    width: 100%;
+    height: 100%;
+    
+}
+
+
+.button-join , .button-learn{
+    padding: 7px 16px;
+    border-radius: 50px;
+    border: 1px solid #eee;
+    transition: all .2s ease;
+    font-size: 18px;
+    text-decoration: none;
+    color: #eee;
+    font-weight:600;
+}
+.button-join:hover{
+    background-color:  rgb(2, 70, 52);
+    
+}
+.cofee-data-div{
+    height: 600px;
+    background-color: #f06464;
+    text-align: center;
+    
+}
+
+.cofee-data-div a , .cofee-data-div p{
+   display: inline-block; 
+   font-weight: bold;
+   color: #eee;
+   font-family: Arial, Helvetica, sans-serif;
+   line-height: 45px;
+   margin-left: 40px;
+   margin-right: 40px;
+   margin-top: 40px;
+
+}
+
+.button-learn:hover{
+background-color: rgb(255, 122, 122);
+}
+
+
+.refresh-image-div{
+    height: 600px;
+    background-color: white;
+}
+
+.refresh-data-div{
+    height: 600px;
+    background-color: #fa91aa;
+    display: flex;
+    align-items: center;
+}
+
+.refresh-image1{
+    width: 100%;
+    height: 100%;
+}
+
+.refresh-data-div a, .refresh-data-div p{
+    color: #1e3932  ;
+    
+}
+
+.button-learn2{
+    padding: 7px 16px;
+    border-radius: 50px;
+    border: 1px solid rgb(31, 31, 31);
+    transition: all .2s ease;
+    font-size: 18px;
+    text-decoration: none;
+    font-weight:600;
+}
+.button-learn2:hover{
+    background-color:#d27d92;
+}
+
+.cookie-data-div{
+    height: 600px;
+    background-color: #007042;
+    display: flex;
+    align-items: center;
+}
+
+.cookie-image-div{
+    height: 600px;
+    background-color: white;
+
+}
+
+.cookie-image1{
+    width: 100%;
+    height: 100%;
+}
+.cookie-data-div a , .cookie-data-div p{
+    color: white;
+    line-height: 40px;
+}
+
+.button-order1{
+    padding: 7px 16px;
+    border-radius: 50px;
+    border: 1px solid white;
+    transition: all .2s ease;
+    font-size: 18px;
+    text-decoration: none;
+    font-weight:600;
+    color: white;
+}
+.button-order1:hover{
+    background-color: #029c5c;
+}
+
+.uber-data-div{
+    height: 350px;
+    background-color: #d4e9e2;
+    display: flex;
+    align-items: center;
+}
+
+.uber-image-div{
+    height: 350px;
+    background-color: white;
+}
+
+.uber-image1{
+    width: 100%;
+    height: 100%;
+}
+.uber-data-div a, .uber-data-div p{
+    color: #1e3932;
+    line-height: 30px;
+}
+
+.button-order2{
+    padding: 7px 16px;
+    border-radius: 50px;
+    border: 1px solid #1e3932;
+    transition: all .2s ease;
+    font-size: 18px;
+    text-decoration: none;
+    font-weight:600;
+    color: white;
+}
+.button-order2:hover{
+    background-color:#b1cac4 ;
+}
+
+
+.note-outer{
+    width: 100%;
+    height: 200px;
+    display: flex;
+    background-color: white;
+    justify-content: center;
+    align-items: center;
+}
+.note-inner{
+    width: 40%;
+    height: 100%;
+    background-color: white;
+    text-align: center;
+    display: inline-block;
+    
+}
+.note-inner p{
+    color: #000000;
+    font-size: 14px;
+    line-height: 1.8;
+}
+
+
+.menu-footer{
+    width: 100%;
+    height: 375px;
+    background-color: white;
+    display: flex;
+    border-top: 1px solid rgb(97, 96, 96);
+    margin-top: 10px;
+    border-bottom:1px solid rgb(97, 96, 96) ;
+    
+
+}
+
+.column-about{
+    height: 100%;
+    width: 250px;
+    background-color: white;
+}
+.column-careers{
+    height: 100%;
+    width: 250px;
+    background-color: white;
+}
+.column-social{
+    height: 100%;
+    width: 250px;
+    background-color: white;
+}
+.column-business{
+    height: 100%;
+    width: 250px;
+    background-color: white;
+}
+.column-order{
+    height: 100%;
+    width: 250px;
+    background-color: white;
+}
+
+.menu-footer ul{
+    list-style-type: none;
+    
+}
+.menu-footer li{
+    padding-top: 20px;
+    
+}
+.menu-footer li a{
+    text-decoration: none;
+    color: #707070;
+    font-family: sans-serif;
+}
+.menu-footer li a:hover{
+    color: #000000;
+}
+
+.footer{
+    width: 100%;
+    height: 100px;
+}
+.footer-logo li{
+    display: inline-block;
+    width: 45px;
+    height: 45px;
+    
+    border-radius: 100%;
+    margin-right: 10px;
+}
+.footer-data{
+    margin-left: 20px;
+    padding-left: 0;
+}
+.footer-data li{
+    display: inline-block;
+    padding-right: 20px;
+    padding-left: 20px;
+    border-right: 1px solid black;
+   
+}
+.footer p{
+    margin-left: 40px;
+}
+.footer-data li a{
+    text-decoration: none;
+    color: #000000;
+}
+.footer-logo li a img:hover{
+background-color: #b2afaf;
+border-radius: 150%;
+}
